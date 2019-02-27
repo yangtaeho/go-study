@@ -13,4 +13,4 @@ func main() {
     // 일시 정지를 위해
     var b []byte = make([]byte, 1)
     os.Stdin.Read(b)
-}
+} 
