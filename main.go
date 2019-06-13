@@ -158,7 +158,7 @@ func main() {
 	// 일시 정지를 위해
 	var b []byte = make([]byte, 4)
 
-	block := false
+	block := true
 	if block {
 		os.Stdin.Read(b)
 
